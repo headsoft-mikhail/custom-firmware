@@ -55,6 +55,6 @@ button:
     on_press:
       - output.turn_on: momentary_button_output
       - output.turn_on: builtin_led_output
-      - delay: 3s
+      - delay: 6s
       - output.turn_off: momentary_button_output
       - output.turn_off: builtin_led_output
